@@ -1,0 +1,7 @@
+.navbar-brand {
+    display: inline-block ;
+    text-indent: -9999px;
+    width: 90px;
+    background: url(../img/brandLogo.jpg) center no-repeat;
+    aspect-ratio: 16/9;
+}
