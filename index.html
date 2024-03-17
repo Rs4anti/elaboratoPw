@@ -26,7 +26,7 @@ and open the template in the editor.
     <body>
 
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container container-fluid text-center">
               <a class="navbar-brand" href="#">brandLogo</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,7 @@ and open the template in the editor.
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
-
+                  <!-- programmazione raggiungibile dalle due card nel centro
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programmazione</a>
                         <ul class="dropdown-menu">
@@ -45,6 +45,7 @@ and open the template in the editor.
                             <li><a class="dropdown-item" href="#">Cinema 2</a></li>
                         </ul>
                   </li>
+                  -->
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -80,11 +81,43 @@ and open the template in the editor.
             </div>
           </nav>
 
-        <div>
-            <h1>
-                TITOLO
-            </h1>
+        <!-- possibile https://getbootstrap.com/docs/5.3/components/carousel/ qua-->
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="column">
+              <div>
+                <h1>
+                  PROGRMMAZIONE
+                </h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" >
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">CINEMA 1</h3>
+                    <p class="card-text">QUALCHE FRASE AD EFFETTO PER VEDERE LA PROGRAMMAZIONE DEL CINEMA 1</p>
+                   <a href="#" class="btn btn-primary">Go to programmazione cinema 1</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h3 class="card-title">CINEMA 2</h3>
+                    <p class="card-text">QUALCHE FRASE AD EFFETTO PER VEDERE LA PROGRAMMAZIONE DEL CINEMA 2</p>
+                   <a href="#" class="btn btn-primary">Go to programmazione cinema 2</a>
+                </div>
+              </div>
+            </div>
+          
         </div>
+      </div>
 
         
     </body>
