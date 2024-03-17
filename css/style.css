@@ -1,3 +1,10 @@
+body {
+    font-family: sans-serif;
+    font-size: 90%;
+    max-width: 85%;
+    margin-left: 12.5%;
+}
+
 .navbar-brand {
     display: inline-block ;
     text-indent: -9999px;
