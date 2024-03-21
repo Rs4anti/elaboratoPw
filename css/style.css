@@ -18,3 +18,10 @@ body {
     background: url(../img/Loghi/logoCinema-removebg-preview.png) center no-repeat;
     aspect-ratio: 16/9;
 }
+
+
+.img-card-1 {
+    display: inline-block ;
+    text-indent: -9999px;
+    width: 50%;
+}
