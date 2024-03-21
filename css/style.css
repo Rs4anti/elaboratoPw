@@ -3,7 +3,7 @@ body {
     font-size: 90%;
     max-width: 85%;
     margin-left: 12.5%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFDAB9), to(#FFA500)) fixed;
 }
 
 .header-home {
@@ -14,7 +14,7 @@ body {
 .navbar-brand {
     display: inline-block ;
     text-indent: -9999px;
-    width: 90px;
-    background: url(../img/brandLogo.jpg) center no-repeat;
+    width: 110px;
+    background: url(../img/Loghi/logoCinema-removebg-preview.png) center no-repeat;
     aspect-ratio: 16/9;
 }
