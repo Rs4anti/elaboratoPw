@@ -20,8 +20,12 @@ body {
 }
 
 
-.img-card-1 {
+.img-card-garden {
     display: inline-block ;
-    text-indent: -9999px;
-    width: 50%;
+    width: 200px;
+}
+
+.img-card-iride {
+    display: inline-block ;
+    width: 75%;
 }
