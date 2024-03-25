@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    font-size: 90%;
+    font-size: larger;
     max-width: 85%;
     margin-left: 12.5%;
     background: -webkit-gradient(linear, left top, left bottom, from(#FFDAB9), to(#FFA500)) fixed;

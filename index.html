@@ -24,8 +24,12 @@ and open the template in the editor.
     </head>
 
     <body>
-      <div>
-        <nav class="navbar navbar-expand-lg bg-transparent">
+      
+        <!-- possibile https://getbootstrap.com/docs/5.3/components/carousel/ qua-->
+
+        <div class="container container-fluid text-center">
+          <div class="row">
+          <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container container-fluid text-center">
               <a class="navbar-brand" href="#">brandLogo</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +41,6 @@ and open the template in the editor.
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
-                  <!-- programmazione raggiungibile dalle due card nel centro
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Programmazione</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Cinema 1</a></li>
-                            <li><a class="dropdown-item" href="#">Cinema 2</a></li>
-                        </ul>
-                  </li>
-                  -->
-
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Rassegne
@@ -79,12 +73,13 @@ and open the template in the editor.
                 </ul>
               </div>
             </div>
+            </div>
           </nav>
-        <!-- possibile https://getbootstrap.com/docs/5.3/components/carousel/ qua-->
 
-        <div class="container container-fluid text-center">
+
+
           <div class="row">
-            <div class="col">
+            <div class="col d-flex justify-content-center align-items-center">
               <div class="header-home">
                 <h1>
                   PROGRAMMAZIONE
@@ -94,9 +89,11 @@ and open the template in the editor.
           </div>
 
           <div class="row">
-            <h2>
-              Scegli il cinema
-            </h2>
+            <div class="col d-flex justify-content-center align-items-center">
+              <h2>
+                Scegli il cinema
+              </h2>
+            </div>
           </div>
 
             <div class="row" >
@@ -106,16 +103,9 @@ and open the template in the editor.
                     <a class="btn btn-primary" href="#"> Vedi programmazione Garden-Multivision</a>
                   </div>
                       <div class="card-body">
-                        
-                          
-                         <!-- Link pagina programmazione Garden-->
+                          <a href="#progrGarden">
                           <img src="img/Loghi/logoGarden-removebg-preview.png" class="card-img-top" alt="...">
-                        
-                       <!-- Link pagina programmazione Garden-->
-                      
-                      <!-- <p class="card-text">QUALCHE FRASE AD EFFETTO PER VEDERE LA PROGRAMMAZIONE DEL Garden</p>
-                  
-                      <a href="#" class="btn btn-primary position-bottom-right">Vedi porgrammazione Garden Multivision</a>  -->
+                        </a>
                                    
                   </div>
                 </div>
@@ -127,17 +117,10 @@ and open the template in the editor.
                       <a class="btn btn-primary" href="#"> Vedi programmazione Iride-Vega</a>
                     </div>
                         <div class="card-body d-flex justify-content-center align-items-center">
-                            
-                           <!-- Link pagina programmazione Garden-->
+                          <a href="#progrIride">
                             <img src="img/Loghi/logoIride-removebg-preview.png" class="card-img-top" alt="...">
-                          
-                         <!-- Link pagina programmazione Garden-->
-                        
-                        <!-- <p class="card-text">QUALCHE FRASE AD EFFETTO PER VEDERE LA PROGRAMMAZIONE DEL Garden</p>
-                    
-                        <a href="#" class="btn btn-primary position-bottom-right">Vedi porgrammazione Garden Multivision</a>  -->
-                                     
-                    </div>
+                          </a>      
+                      </div>
                   </div>
                 </div>
               </div>
