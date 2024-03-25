@@ -18,3 +18,13 @@ body {
     background: url(../img/Loghi/logoCinema-removebg-preview.png) center no-repeat;
     aspect-ratio: 16/9;
 }
+
+.header-carousel{
+    height: 20vh; /* Occupano circa il 20% dell'altezza del body */
+    width: 100%; /* Occupano il 100% della larghezza */
+    object-fit: cover; /* Copre completamente l'area dell'immagine */
+  }
+
+  .carousel {
+    height: 100%; /* Occupa il 20% dell'altezza del body */
+  }
